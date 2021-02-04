@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <header>
+            <%- include ('header/header.ejs') %>
+        </header>
+        <main>
+            <!-- ======= 상세한 제품 Section ======= -->
+            <section id="departments" class="departments">
+                <div class="container">
+        
+                <div class="section-title">
+                    <h2>제품</h2>
+                    <br>
+                    <p>에이스텍의 제품을 소개합니다.</p>
+                    <br>
+                </div>
+        
+                <div class="row">
+                    <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item">
+                        <a class="nav-link active show" data-toggle="tab" href="#p-tab-1">통 신 모 듈</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#p-tab-2">ATOM</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#p-tab-3">RFID</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#p-tab-4">RCS</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#p-tab-5">AST & BC</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="p-tab-1">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                            <h3>통 신 모 듈</h3>
+                            <p class="font-italic">
+                                <br>- SECS I/II : Semiconductor Equipment Communication Standard<br><br><br>
+
+                                - HSMS : High Speed SECS Message Service : by SEMI<br><br>
+                                (Semiconductor Equipment and Material Institute)<br><br><br>
+                                
+                                - TCP/IP<br><br><br>
+                                
+                                - PLC<br><br><br>
+                                
+                                - RS-232&RS-422 : Transfer Data using Serial Port</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tab-pane" id="p-tab-2">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                            <h3>ATOM</h3>
+                            <img src="images/atom.png" alt="ATOM 이미지" width="150%" height="600px">
+                            <br><br><p>ATOM Frame Work(AceTech Online Module)</p>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div class="tab-pane" id="p-tab-3">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                            <h3>RFID</h3>
+                            <img src="images/rfid1.png" alt="RFID 이미지" width="150%" height="600px">
+                            <br><br><p>RFID (Radio Frequency IDentification)</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tab-pane" id="p-tab-4">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>RCS</h3>
+                                <img src="images/rcs1.png" alt="RCS 이미지" width="150%" height="600px">
+                                <br><p>RCS (Remote Control System)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="p-tab-5">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1">
+                                <h3>AST & BC</h3>
+                                <img src="images/astnbc.png" alt="astnbc 이미지" width="150%" height="500px">
+                                <br><br><p>AST&BC(Alarm Signal Transfer & Button Control)</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        
+                </div>
+            </section><!-- 상세한 제품 Section -->
+        </main>
+        <footer>
+            <%- include ('footer/footer.ejs') %>
+        </footer>
+    </body>
+</html>

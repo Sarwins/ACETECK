@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <header>
+            <%- include ('header/header.ejs') %>
+        </header>
+        <main>
+            <!-- ======= 회사 소개 Section ======= -->
+            <section id="departments" class="departments">
+                <div class="container">
+        
+                <div class="section-title">
+                    <h2>에이스텍</h2>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+        
+                <div class="row" >
+                    <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item">
+                        <a class="nav-link active show" data-toggle="tab" href="#tab-1">회사 소개</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-2">주요 고객</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-3">연혁</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tab-4">오시는 길</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="tab-1">
+                        <div class="row">
+                            <div class=" details order-2 order-lg-1" style="margin-left: 30px;">
+                            <p style="font-size: 28px; font-weight: 600; margin-bottom: 20px; color: #2c4964;">회사 소개</p>
+                            <p class="font-italic">
+                                <br>
+                                <div style="display: flex;">
+                                    <img src="images/logo4.jpg" alt="RFID 이미지" width="200px" height="200px">
+                                    <p style="margin-left: 50px; margin-top: 50px; font-size: 41px; font-weight: bold; color:#2C4964">에이스텍에 오신걸 환영합니다.</p>
+                                </div>
+                                <p style="font-size: 16px;"><br><br><br><br>(주)에이스텍은 생산설비 자동화(반도체/기타 생산라인) 관련 소프트웨어 및 하드웨어 개발 / 판매 /지원 사업<br> 위와 연관된 기타 하드웨어(Server관련) 및 Package 공급사업에 역점을 두고 있습니다.<br><br>
+                                    그 동안 축척된 기술력과 지식을 바탕으로 고객에게 인정받고, 함께 성장하며, 밝은 미래의 동반자가 되겠습니다.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tab-pane" id="tab-2">
+                            <div class="row">
+                                <div class="col-lg-20 details order-2 order-lg-1" style="margin-left: 30px;">
+                                <p style="font-size: 28px; font-weight: 600; margin-bottom: 20px; color: #2c4964;">주요 고객</p>
+                                    <!-- ======= 고객 Section ======= -->
+                                    <section id="doctors" class="doctors">
+                                        <div class="container">                               
+                                        <div class="row">                               
+                                            <div class="col-lg-30">
+                                            <div class="member d-flex align-items-start">
+                                                <div class="pic"><img src="images/samsung.jpg" alt="samsung" width="150px" height="150px"></div>
+                                                <div class="member-info">
+                                                    <h4>SAMSUNG</h4>
+                                                    <span></span>
+                                                    <p>삼성</p>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-lg-30">                                           
+                                                <div class="member d-flex align-items-start" style="margin-left: 20px;">
+                                                    <div class="pic"><img src="images/steco.png" alt="steco" width="150px" height="150px"></div>
+                                                    <div class="member-info">
+                                                        <h4>STECO</h4>
+                                                        <span></span>
+                                                        <p>STECO</p>
+                                                    </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-lg-30" style="margin-top: 20px;">                                           
+                                                <div class="member d-flex align-items-start">
+                                                    <div class="pic"><img src="images/hana.jpg" alt="hana" width="150px" height="150px"></div>
+                                                    <div class="member-info">
+                                                        <h4 style="padding-right: 44px;">HANA</h4>
+                                                        <span></span>
+                                                        <p>HANA</p>
+                                                    </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-lg-30" style="margin-top: 20px;">
+                                                <div class="member d-flex align-items-start " style="margin-left:20px">
+                                                    <div class="pic"><img src="images/sfa.jpg" alt="sfa" width="150px" height="150px"></div>
+                                                    <div class="member-info">
+                                                        <h4 style="padding-right: 20px;">SFA</h4>
+                                                        <span></span>
+                                                        <p>SFA</p>
+                                                    </div>
+                                                </div>
+                                                </div>
+
+                                                <div class="col-lg-30" style="margin-top: 20px;">
+                                                    <div class="member d-flex align-items-start">
+                                                        <div class="pic"><img src="images/pspc.png" alt="pspc" width="150px" height="150px"></div>
+                                                        <div class="member-info">
+                                                        <h4 style="padding-right: 42px;">PSPC</h4>
+                                                        <span></span>
+                                                        <p>PSPC</p>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>                     
+                                    </div>
+                                    </section><!-- End 고객 Section -->
+                                                                
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab-3">
+                        <div class="row">
+                            <div class="col-lg-8 details order-2 order-lg-1" style="margin-left: 20px;">
+                                <p style="font-size: 28px; font-weight: 600; margin-bottom: 20px; color: #2c4964;">회사 연혁</p>
+                            <img src="images/history.png" alt="연혁 1" width="500px" height="500px" style="margin-top: 60px;">
+                            <img src="images/history2.png" alt="연혁 2" width="500px" height="500px" style="margin-left: 22px;">
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tab-pane" id="tab-4">
+                            <div class="row">
+                                <div class="col-lg-20 details order-2 order-lg-1" style="margin-left: 20px;">
+                                    <p style="font-size: 28px; font-weight: 600; margin-bottom: 40px; color: #2c4964;">오시는 길<br></p>
+                                    <img src="images/map.png" alt="ATOM 이미지" width="100%" height="300px">
+                                   
+                                    <p style="font-size: 18px; font-weight: bold;"><br><br> 에이스텍 위치 : 충청남도 천안시 서북구 월봉로 87 302호</p>                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        
+                </div>
+            </section>
+        </main>
+        <footer>
+            <%- include ('footer/footer.ejs') %>
+        </footer>
+    </body>
+</html>
